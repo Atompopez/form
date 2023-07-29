@@ -48,7 +48,7 @@
                         </div>
                         <div>
                             <label for="1">We accept</label>
-                            <div>
+                            <div class="cuadro d-flex">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="radioInline" id="inlineRadioDefault">
                                     <i class="bi bi-credit-card"></i>
@@ -69,8 +69,8 @@
                             <label for="exampleFormControlInput1" class="form-label">Last name</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1">
                         </div>
-                        <div class="d-flex flex-row">
-                            <div>
+                        <div class="row">
+                            <div class="col-6">
                                 <label for="exampleFormControlInput1" class="form-label">Last name</label>
                                 <select class="form-select" aria-label="Default select example">
                                     <option selected>Pick a state</option>
@@ -79,8 +79,8 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <div>
-                                <label for="exampleFormControlInput1" class="form-label">Postal code#</label>
+                            <div class="col-6">
+                                <label for="exampleFormControlInput1" class="form-label">Postal code</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="xxxxxxxxxxxxxxxxxx">       
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-footer text-muted">
+            <div class="card-footer d-grid gap-2 d-md-flex justify-content-md-end">
                 <button type="button" class="btn btn-secondary">Cancel</button>
                 <button type="button" class="btn btn-primary">Send</button>
               </div>
